@@ -92,13 +92,105 @@
         </main>
 
         <aside>
+            <article>
+                <h2>
+                    Seccion Publicitaria
+                </h2>
+                <h3>
+                    Dia del ninio! Especial de regalos para chicos
+                </h3>
+                <div class="anuncios">
+                    <figure>
+                        <img src="./assets/Bat-signal.png" alt="bat-señal">
+                        <figcaption>
+                            Para el murcielaguito de la casa!
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./assets/lasso.jpeg" alt="mujer-maravilla">
+                        <figcaption>
+                            La increible mujer amazona
+                        </figcaption>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id vero cum repudiandae nam, beatae quis modi itaque totam perferendis facilis? Neque corporis, quibusdam doloremque id sint voluptatum cumque consectetur perferendis!
 
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id vero cum repudiandae nam, beatae quis modi itaque totam perferendis facilis? Neque corporis, quibusdam doloremque id sint voluptatum cumque consectetur perferendis!
+
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id vero cum repudiandae nam, beatae quis modi itaque totam perferendis facilis? Neque corporis, quibusdam doloremque id sint voluptatum cumque consectetur perferendis!
+
+                        </p>
+
+                    </figure>
+
+                    <img src="./assets/heroes.jpg" alt="">
+                </div>
+            </article>
         </aside>
 
     </div>
     
-    <footer>
+    <div class="suscripcion">
+        <h2>Suscribite a nuestro diario para recibir las noticias de Metropolis!</h2>
+
+        <form action="/" method="GET">
+            <h3>
+                Datos de contacto
+            </h3>
+
+            <label class="user-info">Tu nombre:
+                <input type="text" name="suscriber-name" placeholder="Nombre" required minlength="3">
+            </label>
+
+            <label class="user-info">Tu apellido:
+                <input type="text" name="suscriber-lastname" placeholder="Apellido" required minlength="3">
+            </label>
+
+            <label class="user-info">Tu email:
+                <input type="email" name="suscriber-email" placeholder="Email" required>
+            </label>
             
+            <h3>Ciudad de origen</h3>
+            
+            <select name="city">
+                <option value="Gotham" class="cities">Gotham</option>
+                <option value="Caba" class="cities">Caba</option>
+                <option value="Metropolis" class="cities">Metropolis</option>
+                <option value="Conurbano" class="cities">Conurbano</option>
+                <option value="Villa Urquiza" class="cities">Villa Urquiza</option>
+                <option value="Other" class="cities">Otra</option>
+            </select>
+
+            <h3>Tipo de suscripcion deseada:</h3>
+            <label class="user-tipe">
+                <input type="radio" name="suscription-type" id="valor1" value="Bronce">Bronce
+            </label>
+
+            <label class="user-tipe">
+                <input type="radio" name="suscription-type" id="valor2" value="Plata">Plata
+            </label>
+
+            <label class="user-tipe">
+                <input type="radio" name="suscription-type" id="valor3" value="Oro" checked>Oro
+            </label>
+            <p>Que suscripcion es para mayores?
+                <a href="#">
+                    <strong>Hace click para mas informacion</strong>
+                </a>
+            </p>
+            <button>Suscribirse</button>
+        </form>
+
+    </div>
+
+    <footer>
+        <p>
+            Daily planet no es una propiedad registrada de superman &copy; Metropolis 1932.
+            <p>Hecho por<a href="" target="blank"><strong>TheDexTher</strong></a></p>
+        </p>            
     </footer>
 
 
