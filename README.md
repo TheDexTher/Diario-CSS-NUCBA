@@ -1,7 +1,5 @@
-# pam-NUCBA-1617-HTML-clase07-daily-planet
 
-Podés verlo funcionando acá:
+# Diario-CSS-NUCBA
+Fase final hecha por pam aca:
 https://daily-planet.vercel.app/
 
-Sí, los link andan. Apretá nomás.
-# Diario-CSS-NUCBA
