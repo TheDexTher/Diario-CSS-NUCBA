@@ -1,9 +1,12 @@
 /* general */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
 *{  
     padding: 1%;
     margin: 0px;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 img{
     filter: saturate(0%);
@@ -15,12 +18,22 @@ body{
 
 h2{
     font-size: 2.3em;
+    color: rgb(35, 31, 32);
+   
 }
 h1{
     display: none;
 }
 h3{
     font-size: 1.3em;
+    font-weight: lighter;
+}
+figcaption{
+    font-style: italic;
+}
+p{
+    font-weight: lighter;
+    color: #2f3542;
 }
 /* header */
 
@@ -40,11 +53,11 @@ header{
     top: 0px;
     background-color: rgba(235, 235, 235, 0.672);
     z-index: 1;
-    padding: 1%;
+    padding: 0% 1% 0% 1%;
 }
 
 header img{
-    width: 30%;
+    width: 20%;
     margin: auto;
     display: block;
 }
@@ -65,7 +78,7 @@ header img{
     color: rgb(92, 92, 92);
 }
 .nav-list :hover{
-    background-color: rgb(211, 209, 209);
+    background-color: rgba(211, 209, 209, 0.412);
 }
 ul{
     text-align: center;
@@ -84,7 +97,7 @@ main{
 }
 
 main img{
-    max-width: 600px;
+    width: 100%;
 }
 
 main .news-content{
@@ -94,6 +107,11 @@ main .news-content{
 main .news-content p{
     padding-right: 0% 1%;
     text-align: justify;
+}
+.subtitle{
+    font-weight: lighter;
+    font-size: 1.1em;
+    color: #363d4d;
 }
 /* Aside */
 
