@@ -301,6 +301,9 @@ p.imagen-hack{
 
 }
 @media (max-width: 768px) and (min-width: 0px){
+    .main{
+        width: 95%;
+    }
     .boton{
         display: block;
         margin: 0% 15px;
@@ -351,8 +354,11 @@ p.imagen-hack{
         font-size: 1.7em;
         text-align: left;
     }
+    .subtitle-footer{
+        font-size: 1em;
+    }
     main{
-        width: 100%;
+        width: 90%;
         padding: 0;
     }
     aside{
@@ -372,8 +378,9 @@ p.imagen-hack{
 
     }
     figure{
-        width: 100% !important;
+        width: 90% !important;
         margin-top: 20px;
+        display: block;
         margin-bottom: 20px;
     }
     .suscribite{
