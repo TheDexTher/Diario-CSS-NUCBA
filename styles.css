@@ -124,6 +124,9 @@ ul{
     padding: 1%;
 }
 /* Princial */
+.titulo-galeria{
+    font-size: 3em;
+}
 .titulo{
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
@@ -301,6 +304,15 @@ p.imagen-hack{
 
 }
 @media (max-width: 768px) and (min-width: 0px){
+    .juego2{
+        margin-top: 20px;
+        margin: 0;
+        width: 300px !important;
+    }
+    .juego{
+        margin-top: 20px;
+        width: 300px !important;
+    }
     .main{
         width: 95%;
     }
